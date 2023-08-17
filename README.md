@@ -17,3 +17,7 @@ On my mouse, button:
 
 other buttons not connected. (the scrollwheel feels like it has additional buttons but they don't seem to work.)
 calibrated versus raw (or scaled) not done.
+
+# License
+Apache 2.0 License
+
