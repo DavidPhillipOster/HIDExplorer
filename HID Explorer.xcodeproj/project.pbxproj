@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63FAAAD617B88B7900EA26F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FAAAD517B88B7900EA26F8 /* Cocoa.framework */; };
+		63FAAAE017B88B7A00EA26F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63FAAADE17B88B7A00EA26F8 /* InfoPlist.strings */; };
+		63FAAAE217B88B7A00EA26F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAAE117B88B7A00EA26F8 /* main.m */; };
+		63FAAAE617B88B7A00EA26F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 63FAAAE417B88B7A00EA26F8 /* Credits.rtf */; };
+		63FAAAE917B88B7A00EA26F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAAE817B88B7A00EA26F8 /* AppDelegate.m */; };
+		63FAAAEC17B88B7B00EA26F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FAAAEA17B88B7B00EA26F8 /* MainMenu.xib */; };
+		63FAAAF717B88CFC00EA26F8 /* HIDxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAAF617B88CFC00EA26F8 /* HIDxController.m */; };
+		63FAAAFA17B88D1500EA26F8 /* HIDxElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAAF917B88D1500EA26F8 /* HIDxElement.m */; };
+		63FAAAFC17B8954E00EA26F8 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FAAAFB17B8954E00EA26F8 /* IOKit.framework */; };
+		63FAAB0417B8958700EA26F8 /* HID_cookie_strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63FAAAFE17B8958700EA26F8 /* HID_cookie_strings.plist */; };
+		63FAAB0517B8958700EA26F8 /* HID_device_usage_strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63FAAAFF17B8958700EA26F8 /* HID_device_usage_strings.plist */; };
+		63FAAB0617B8958700EA26F8 /* HID_Name_Lookup.c in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAB0017B8958700EA26F8 /* HID_Name_Lookup.c */; };
+		63FAAB0717B8958700EA26F8 /* HID_usage_strings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63FAAB0117B8958700EA26F8 /* HID_usage_strings.plist */; };
+		63FAAB0817B8958700EA26F8 /* HID_Utilities.c in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAB0217B8958700EA26F8 /* HID_Utilities.c */; };
+		63FAAB0F17B8958C00EA26F8 /* IOHIDDevice_.c in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAB0A17B8958C00EA26F8 /* IOHIDDevice_.c */; };
+		63FAAB1017B8958C00EA26F8 /* IOHIDElement_.c in Sources */ = {isa = PBXBuildFile; fileRef = 63FAAB0C17B8958C00EA26F8 /* IOHIDElement_.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		639FA67A26EA93000042C7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		63FAAAD217B88B7900EA26F8 /* HID Explorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HID Explorer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63FAAAD517B88B7900EA26F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		63FAAAD817B88B7900EA26F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		63FAAADA17B88B7900EA26F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63FAAADD17B88B7A00EA26F8 /* HID Explorer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HID Explorer-Info.plist"; sourceTree = "<group>"; };
+		63FAAADF17B88B7A00EA26F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63FAAAE117B88B7A00EA26F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63FAAAE317B88B7A00EA26F8 /* HID Explorer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HID Explorer-Prefix.pch"; sourceTree = "<group>"; };
+		63FAAAE517B88B7A00EA26F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		63FAAAE717B88B7A00EA26F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63FAAAE817B88B7A00EA26F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63FAAAF517B88CFC00EA26F8 /* HIDxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDxController.h; sourceTree = "<group>"; };
+		63FAAAF617B88CFC00EA26F8 /* HIDxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDxController.m; sourceTree = "<group>"; };
+		63FAAAF817B88D1500EA26F8 /* HIDxElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDxElement.h; sourceTree = "<group>"; };
+		63FAAAF917B88D1500EA26F8 /* HIDxElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDxElement.m; sourceTree = "<group>"; };
+		63FAAAFB17B8954E00EA26F8 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		63FAAAFE17B8958700EA26F8 /* HID_cookie_strings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HID_cookie_strings.plist; sourceTree = "<group>"; };
+		63FAAAFF17B8958700EA26F8 /* HID_device_usage_strings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HID_device_usage_strings.plist; sourceTree = "<group>"; };
+		63FAAB0017B8958700EA26F8 /* HID_Name_Lookup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HID_Name_Lookup.c; sourceTree = "<group>"; };
+		63FAAB0117B8958700EA26F8 /* HID_usage_strings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HID_usage_strings.plist; sourceTree = "<group>"; };
+		63FAAB0217B8958700EA26F8 /* HID_Utilities.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HID_Utilities.c; sourceTree = "<group>"; };
+		63FAAB0317B8958700EA26F8 /* HID_Utilities_External.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HID_Utilities_External.h; sourceTree = "<group>"; };
+		63FAAB0A17B8958C00EA26F8 /* IOHIDDevice_.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOHIDDevice_.c; sourceTree = "<group>"; };
+		63FAAB0B17B8958C00EA26F8 /* IOHIDDevice_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHIDDevice_.h; sourceTree = "<group>"; };
+		63FAAB0C17B8958C00EA26F8 /* IOHIDElement_.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IOHIDElement_.c; sourceTree = "<group>"; };
+		63FAAB0D17B8958C00EA26F8 /* IOHIDElement_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHIDElement_.h; sourceTree = "<group>"; };
+		63FAAB0E17B8958C00EA26F8 /* IOHIDLib_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOHIDLib_.h; sourceTree = "<group>"; };
+		63FAAB1117B8B61200EA26F8 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63FAAACF17B88B7900EA26F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FAAAFC17B8954E00EA26F8 /* IOKit.framework in Frameworks */,
+				63FAAAD617B88B7900EA26F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63FAAAC917B88B7900EA26F8 = {
+			isa = PBXGroup;
+			children = (
+				63FAAB1117B8B61200EA26F8 /* ReadMe.txt */,
+				63FAAADB17B88B7900EA26F8 /* HID Explorer */,
+				63FAAAD417B88B7900EA26F8 /* Frameworks */,
+				63FAAAD317B88B7900EA26F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63FAAAD317B88B7900EA26F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAAD217B88B7900EA26F8 /* HID Explorer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63FAAAD417B88B7900EA26F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAAD517B88B7900EA26F8 /* Cocoa.framework */,
+				63FAAAFB17B8954E00EA26F8 /* IOKit.framework */,
+				63FAAAD717B88B7900EA26F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63FAAAD717B88B7900EA26F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAAD817B88B7900EA26F8 /* AppKit.framework */,
+				63FAAADA17B88B7900EA26F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		63FAAADB17B88B7900EA26F8 /* HID Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAAE717B88B7A00EA26F8 /* AppDelegate.h */,
+				63FAAAE817B88B7A00EA26F8 /* AppDelegate.m */,
+				63FAAAF517B88CFC00EA26F8 /* HIDxController.h */,
+				63FAAAF617B88CFC00EA26F8 /* HIDxController.m */,
+				63FAAAF817B88D1500EA26F8 /* HIDxElement.h */,
+				63FAAAF917B88D1500EA26F8 /* HIDxElement.m */,
+				63FAAAFD17B8958700EA26F8 /* HID Utilities */,
+				63FAAB0917B8958C00EA26F8 /* IOHIDManager */,
+				63FAAADC17B88B7A00EA26F8 /* Supporting Files */,
+			);
+			path = "HID Explorer";
+			sourceTree = "<group>";
+		};
+		63FAAADC17B88B7A00EA26F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAAEA17B88B7B00EA26F8 /* MainMenu.xib */,
+				63FAAADD17B88B7A00EA26F8 /* HID Explorer-Info.plist */,
+				63FAAADE17B88B7A00EA26F8 /* InfoPlist.strings */,
+				63FAAAE117B88B7A00EA26F8 /* main.m */,
+				63FAAAE317B88B7A00EA26F8 /* HID Explorer-Prefix.pch */,
+				63FAAAE417B88B7A00EA26F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63FAAAFD17B8958700EA26F8 /* HID Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAAFE17B8958700EA26F8 /* HID_cookie_strings.plist */,
+				63FAAAFF17B8958700EA26F8 /* HID_device_usage_strings.plist */,
+				63FAAB0017B8958700EA26F8 /* HID_Name_Lookup.c */,
+				63FAAB0117B8958700EA26F8 /* HID_usage_strings.plist */,
+				63FAAB0217B8958700EA26F8 /* HID_Utilities.c */,
+				63FAAB0317B8958700EA26F8 /* HID_Utilities_External.h */,
+			);
+			path = "HID Utilities";
+			sourceTree = "<group>";
+		};
+		63FAAB0917B8958C00EA26F8 /* IOHIDManager */ = {
+			isa = PBXGroup;
+			children = (
+				63FAAB0A17B8958C00EA26F8 /* IOHIDDevice_.c */,
+				63FAAB0B17B8958C00EA26F8 /* IOHIDDevice_.h */,
+				63FAAB0C17B8958C00EA26F8 /* IOHIDElement_.c */,
+				63FAAB0D17B8958C00EA26F8 /* IOHIDElement_.h */,
+				63FAAB0E17B8958C00EA26F8 /* IOHIDLib_.h */,
+			);
+			path = IOHIDManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63FAAAD117B88B7900EA26F8 /* HID Explorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63FAAAEF17B88B7B00EA26F8 /* Build configuration list for PBXNativeTarget "HID Explorer" */;
+			buildPhases = (
+				63FAAACE17B88B7900EA26F8 /* Sources */,
+				63FAAACF17B88B7900EA26F8 /* Frameworks */,
+				63FAAAD017B88B7900EA26F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HID Explorer";
+			productName = "HID Explorer";
+			productReference = 63FAAAD217B88B7900EA26F8 /* HID Explorer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63FAAACA17B88B7900EA26F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = "David Phillip Oster";
+				TargetAttributes = {
+					63FAAAD117B88B7900EA26F8 = {
+						DevelopmentTeam = 2X3M9VFULE;
+					};
+				};
+			};
+			buildConfigurationList = 63FAAACD17B88B7900EA26F8 /* Build configuration list for PBXProject "HID Explorer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63FAAAC917B88B7900EA26F8;
+			productRefGroup = 63FAAAD317B88B7900EA26F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63FAAAD117B88B7900EA26F8 /* HID Explorer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63FAAAD017B88B7900EA26F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FAAAE017B88B7A00EA26F8 /* InfoPlist.strings in Resources */,
+				63FAAAE617B88B7A00EA26F8 /* Credits.rtf in Resources */,
+				63FAAAEC17B88B7B00EA26F8 /* MainMenu.xib in Resources */,
+				63FAAB0417B8958700EA26F8 /* HID_cookie_strings.plist in Resources */,
+				63FAAB0517B8958700EA26F8 /* HID_device_usage_strings.plist in Resources */,
+				63FAAB0717B8958700EA26F8 /* HID_usage_strings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63FAAACE17B88B7900EA26F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FAAAE217B88B7A00EA26F8 /* main.m in Sources */,
+				63FAAAE917B88B7A00EA26F8 /* AppDelegate.m in Sources */,
+				63FAAAF717B88CFC00EA26F8 /* HIDxController.m in Sources */,
+				63FAAAFA17B88D1500EA26F8 /* HIDxElement.m in Sources */,
+				63FAAB0617B8958700EA26F8 /* HID_Name_Lookup.c in Sources */,
+				63FAAB0817B8958700EA26F8 /* HID_Utilities.c in Sources */,
+				63FAAB0F17B8958C00EA26F8 /* IOHIDDevice_.c in Sources */,
+				63FAAB1017B8958C00EA26F8 /* IOHIDElement_.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63FAAADE17B88B7A00EA26F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FAAADF17B88B7A00EA26F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63FAAAE417B88B7A00EA26F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63FAAAE517B88B7A00EA26F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		63FAAAEA17B88B7B00EA26F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639FA67A26EA93000042C7AD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63FAAAED17B88B7B00EA26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63FAAAEE17B88B7B00EA26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63FAAAF017B88B7B00EA26F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HID Explorer/HID Explorer-Prefix.pch";
+				INFOPLIST_FILE = "HID Explorer/HID Explorer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.HID-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63FAAAF117B88B7B00EA26F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HID Explorer/HID Explorer-Prefix.pch";
+				INFOPLIST_FILE = "HID Explorer/HID Explorer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.HID-Explorer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63FAAACD17B88B7900EA26F8 /* Build configuration list for PBXProject "HID Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FAAAED17B88B7B00EA26F8 /* Debug */,
+				63FAAAEE17B88B7B00EA26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63FAAAEF17B88B7B00EA26F8 /* Build configuration list for PBXNativeTarget "HID Explorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63FAAAF017B88B7B00EA26F8 /* Debug */,
+				63FAAAF117B88B7B00EA26F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63FAAACA17B88B7900EA26F8 /* Project object */;
+}
